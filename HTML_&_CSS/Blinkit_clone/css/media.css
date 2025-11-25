@@ -1,0 +1,44 @@
+@media(min-width:200px) and (max-width:575px){
+
+    header{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .headerLeft{
+        justify-content: center;
+    }
+    .header-logo{
+        padding:10px;
+    }
+    .headertxt{
+        padding:10px;
+    }
+    .headertxt h3{
+        font-size:15px;
+    }
+    .headertxt p{
+        font-size:15px;
+    }
+    .headerSearch{
+        width:100%;
+        margin-top: 10px;
+    }
+    .headerBtn{
+        margin-top: 10px;
+        justify-content: space-evenly;
+    }
+}
+
+@media(min-width:576px) and (max-width:1129px){
+    .headertxt{
+        padding:10px;
+        width:max-content;
+    }
+    .headertxt h3{
+        font-size:15px;
+    }
+    .headertxt p{
+        font-size:15px;
+    }
+}
