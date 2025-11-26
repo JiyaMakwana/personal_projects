@@ -101,3 +101,28 @@ header{
     left:10px;
     font-size: 1rem;
 }
+
+/* Banner Section */
+.banner-section{
+    max-width:1280px;
+    margin:auto;
+}
+
+.banner-section img{
+    width:100%;
+    cursor:pointer;
+}
+
+.order-section{
+    display:flex;
+    max-width: 1280px;
+    margin:auto;
+}
+.order-sectionItems{
+    flex-basis:24%;
+    margin:1.2%;
+}
+.order-sectionItems img{
+    width: 100%;
+    cursor:pointer;
+}

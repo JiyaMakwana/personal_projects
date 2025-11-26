@@ -30,6 +30,15 @@
         justify-content: center;
         position: fixed;
         bottom:0px;
+        background-color: white;
+    }
+    .banner-section{
+        display:none;
+    }
+
+    .order-section{
+        flex-direction: column;
+        padding:10px;
     }
 
 }
@@ -44,5 +53,15 @@
     }
     .headertxt p{
         font-size:15px;
+    }
+
+    .banner-section{
+        display: none;
+    }
+    .order-section{
+        justify-content: center;
+    }
+    .order-sectionItems{
+    flex-basis:29%;
     }
 }
