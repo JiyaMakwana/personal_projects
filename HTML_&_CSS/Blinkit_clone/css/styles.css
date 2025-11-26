@@ -89,7 +89,7 @@ header{
     height: 55px;
     border: none;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 1rem;
     color: white;
     background-color: rgba(0, 128, 0, 0.591);
     font-weight: 800;
